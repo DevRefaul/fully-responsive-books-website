@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Lato', sans-serif;
+}
+#header{
+    background-color: #FC4F74;
+}
+
+
+
+
+.navbar-nav  li a{
+    float: right;
+    text-align: left;
+    color: #fff !important;
+    font-weight: 700;
+    padding-right: 30px !important;
+}
+
+#hero{
+    height: auto;
+    padding: 100px 0px;
+    background-image: linear-gradient(180deg, #FF5669, #FD5F44);
+}
+ .hero-con{
+     padding-top: 50px;
+ }
+.hero-con h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.hero-con h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.hero-con p{
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+.cmn-btn{
+    padding: 8px 40px;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 2px solid #FF5669 ;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+.cmn-btn:hover{
+    background-color: #FC4F74;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.hero-img img{
+    width: 80%;
+}
+
+
+/* hero section done */
+
+/* about me section srated */
+#about-me{
+    padding: 150px 0px;
+}
+.abt-left-col img{
+    width: 80%;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+ .abt-right-col{
+   position: relative; 
+} 
+
+.right-abt-con{
+    padding: 80px 20px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 10px 10px 30px;
+    position: absolute;
+    top: 18vmin;
+    left: -18vmin; 
+    z-index: 0;
+}
+
+
+/* about section done */
+
+
+/* features section started */
+#features{
+    padding-bottom: 100px;
+}
+.headings{
+    background-image: url(img/happy.png);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.headings h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15%;
+    font-weight: 700;
+    color: #FC4F74;
+}
+.headings p{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 500;
+    color: #ff2600;
+}
+.numbers{
+
+    margin-top: -120px;
+ 
+}
+.first-sqr{
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding:50px 80px;
+    margin-top: 30px;
+    background-color: #FF5669;
+    box-shadow: 5px 5px 40px #FC4F74;
+}
+
+
+
+/* features lower content started */
+.lower-con{
+    padding: 70px 0px;
+}
+.lowecon-head h2{
+    font-size: 50px;
+    padding: 20px 0px;
+    font-weight: 700;
+    font-style: italic;
+}
+.lowecon-head p{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.lowercon-price .card{
+    margin: 20px 20px;
+}
+.lowercon-price .card-title,.prices{
+    background-color: aliceblue;
+
+}
+.lowercon-price .card-body{
+    padding: 0 !important;
+}
+.lowercon-price .prices{
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+}
+.lowercon-price .card-body h5{
+    font-size: 30px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+.lowercon-price .card-body p{
+    padding: 0px 20px;
+    margin: 60px 0px;
+}
+.lowercon-price .card-body .prices h2{
+    padding-top: 50px;
+}
+
+/* features section end */
+
+/* app section started */
+#app{
+    padding: 100px 0px;
+    background-image: linear-gradient(90deg, #FF5669, #FD5F44);
+}
+.app-con-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.app-con-text p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    padding: 40px 30px;
+}
+
+
+.rt-btn{
+    width: 20%;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: azure;
+    border-radius: 15px;
+}
+.lt-btn{
+    width: 20%;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: azure;
+    border-radius: 15px;
+}
+
+.lt-btn:hover{
+    color: #fff;
+    background-color: #FC4F74;
+    cursor: pointer;
+}
+.rt-btn:hover{
+    color: #fff;
+    background-color: #FC4F74;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* app section done */
+
+
+
+/* reviews section started */
+#reviews{
+    padding: 100px 0px;
+}
+.reviews-part .card-body a{
+    margin: 20px 0px;
+}
+
+.review-head{
+    padding: 30px 0px;
+}
+.review-head h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.review-head p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 0px;
+}
+.r-card h5{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+.r-card h6{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+}
+.r-card a{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 30px;
+
+}
+.r-card a:hover{
+    background-color:#FC4F74;
+}
+
+.img1{
+    margin: 50px 0px;
+    width: 80%;
+    border: 1px solid #777;
+    border-radius: 100px;
+    /* padding: 50px 50px; */
+}
+.img2{
+    width: 50%;
+    margin: 50px 0px;
+}
+/* reviews section done*/
+
+
+/* footer section started */
+
+.footer{
+   background-color: #282729; 
+}
+
+.f-content{
+    /* display: flex; */
+    justify-content: space-around;
+    color: #fff;
+
+}
+.first-col{
+    padding: 50px 20px;
+
+
+}
+.sec-col{
+    padding: 50px 0px;
+    text-align: center;
+
+}
+.sec-col input{
+   width: 80%;
+   height: 40px;
+   padding-left: 10px;
+}
+.sec-col .btn-foot{
+    display: inline-block;
+    background-image: linear-gradient(180deg, #FF5669, #FD5F44);
+    /* font-size: 20px; */
+    padding:7.5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    margin-left: -60px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.third-col{
+    padding: 50px 0px;
+    text-align: center;
+
+}
+.third-col i{
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+.third-col i:hover{
+    /* background-image: linear-gradient(90deg, #FF5669, #FD5F44); */
+    cursor: pointer;
+    border-radius: 10px;
+}
+.third-col .fa-facebook-square:hover{
+    color: rgb(0, 98, 255);
+}
+.third-col .fa-instagram:hover{
+    color: rgb(246, 44, 78);
+}
+.third-col .fa-twitter-square:hover{
+    color: rgb(0, 153, 255);
+}
+.third-col .fa-youtube-play:hover{
+    color: red;
+}
+
+/* footer section end */
+
+
+
+
+
+
+
+
+            /* media qureys */
+
+            @media (max-width:450px){
+                .headings{
+                    height: auto;
+                }
+            }
+
+            @media (max-width:768px){
+                .hero-img{
+                    margin-top: 0px;
+                } 
+                .abt-left-col {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                .abt-left-col img{
+                    width:100%;
+
+                }
+                 .abt-right-col{
+                    padding: 40px 20px;
+                    width: 100%;
+                    margin-top: 40px ;
+
+                } 
+                .right-abt-con{
+                    box-shadow: 2px 2px 10px;
+                }
+
+                .numbers{
+
+                    margin-top: 30px;
+                 
+                }
+                .lt-btn{
+                    display: block;
+                    width: 70%;
+                    margin-right: 0px;
+                }
+                .rt-btn{
+                    display: block;
+                    width: 70%;
+                    margin-left: 0px;
+                }
+            }
+
+
+            @media (max-width:990px){
+                .hero-img{
+                    margin-top: 100px;
+                } 
+                .numbers{
+
+                    margin-top: 0px;
+                 
+                }
+                .right-abt-con{
+                    margin-top: 0px !important;
+                }
+
+
+            }
+
+      @media (max-width:1200px){
+         .right-abt-con{
+             text-align: center;
+             margin-top: 105px;
+            padding: 50px 10px;
+             width: initial;
+             height: initial;
+             position: initial;
+             top: 5vmin;
+             left: 0vmin;
+                }
+            }
+
